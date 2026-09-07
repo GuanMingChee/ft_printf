@@ -64,7 +64,7 @@ int	conversion_to_x(uintptr_t unbr, char p)
 			return (-1);
 	}
 	i = unbr % 16;
-	if (write(1, &hex list[i], 1) == -1)
+	if (write(1, &hex_list[i], 1) == -1)
 		return (-1);
 	return (res + 1);
 }
