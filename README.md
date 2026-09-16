@@ -1,4 +1,4 @@
-- *This project has been created as part of the 42 curriculum by <gchee>.*
+- *This project has been created as part of the 42 curriculum by gchee.*
 - “Description” section that clearly presents the project, including its goal and a
 brief overview.
 - “Instructions” section containing any relevant information about compilation,
