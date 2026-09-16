@@ -12,8 +12,9 @@
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
-#include <stdint.h>
-#include <stdarg.h>
+
+# include <stdint.h>
+# include <stdarg.h>
 
 int	ft_printf(const char *printy, ...);
 int	conversion_to_c(char c);

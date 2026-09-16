@@ -53,7 +53,7 @@ int	conversion_to_p(void *addr)
 	}
 	if (write (1, "0x", 2) == -1)
 		return (-1);
-	res = conversion_to_x((uintptr_t)addr, 'x');
+	res = conversion_to_x((uintptr_t)addr, 'y');
 	if (res == -1)
 		return (-1);
 	return (res + 2);
@@ -66,6 +66,8 @@ int	conversion_to_x(uintptr_t unbr, char p)
 	int		res;
 
 	res = 0;
+	if (p == 'x' || p == 'X')
+		unbr = (unsigned int)unbr;
 	hex_list = "0123456789abcdef";
 	if (p == 'X')
 		hex_list = "0123456789ABCDEF";
