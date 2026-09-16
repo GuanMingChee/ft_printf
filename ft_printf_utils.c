@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf_utils.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gchee <gchee@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/16 17:43:46 by gchee             #+#    #+#             */
+/*   Updated: 2026/09/16 17:43:50 by gchee            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdint.h>
 #include <unistd.h>
 #include "ft_printf.h"
@@ -20,7 +32,7 @@ int	conversion_to_s(char *str)
 	res = 0;
 	while (*str)
 	{
-		res = ft_putchar(*str);
+		res = conversion_to_c(*str);
 		if (res == -1)
 			return (-1);
 		count += res;

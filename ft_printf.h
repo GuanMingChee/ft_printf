@@ -1,5 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gchee <gchee@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/16 17:43:10 by gchee             #+#    #+#             */
+/*   Updated: 2026/09/16 17:43:19 by gchee            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
+#include <stdint.h>
+#include <stdarg.h>
 
 int	ft_printf(const char *printy, ...);
 int	conversion_to_c(char c);
