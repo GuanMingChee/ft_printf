@@ -2,19 +2,19 @@
 
 
 - **Description**
-	- This project serves the purpose of understanding printf and variadic function.
+	- This project serves the purpose of understanding printf and variadic functions.
 	- We will replicate the function of printf (which is to handle the conversion of cspdiuxX% specifiers)
 
 - **Instructions**
 	- To test manually: 
-		- Run command below to compile the ft_printf function, compile it with manual written testcases then exceute it.
+		- Run the commands below in ft_printf directory to compile the ft_printf function, compile it with manually written test cases, then execute it.
 			```
 			make
 			cc -Wall -Wextra -Werror <Manual_Testcase>.c libftprintf.a -o <executable>
 			./<executable>
 			```
-	- To test with pre-written testcases:
-		- Refer to tester in "Resource" section for more details. Be aware that valgrind is needed for this.
+	- To test with pre-written test cases:
+		- Refer to the tester in "Resources" section for more details. Note that valgrind is needed for this.
 			`
 			sudo apt update && sudo apt install -y valgrind
 			`
@@ -23,7 +23,7 @@
 	- [Pre-written tester](https://github.com/Tripouille/printfTester)
 	- [Makefile resource](https://makefiletutorial.com/#variables)
 	- AI usage:
-		- understand each specifiers better to reduce number of functions
-		- understand variadic function better with more personalized explanation with examples
+		- understand each specifier better to reduce the number of functions
+		- understand variadic functions better with more personalized explanation with examples
 		- troubleshoot blockers to clarify thoughts
-		- help to plan algorithm
+		- help to plan the algorithm
