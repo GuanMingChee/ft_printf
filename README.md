@@ -10,8 +10,8 @@
 		- Run the commands below in ft_printf directory to compile the ft_printf function, compile it with manually written test cases, then execute it.
 			```
 			make
-			cc -Wall -Wextra -Werror <Manual_Testcase>.c libftprintf.a -o <executable>
-			./<executable>
+			cc -Wall -Wextra -Werror <MANUAL_TESTCASES>.c libftprintf.a -o <EXECUTABLE>
+			./<EXECUTABLE>
 			```
 	- To test with pre-written test cases:
 		- Refer to the tester in "Resources" section for more details. Note that valgrind is needed for this.
